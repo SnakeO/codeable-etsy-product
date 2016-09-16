@@ -1,0 +1,1 @@
+<a target="_blank" href="<?php echo $btn_url?>" class="single_add_to_cart_button button ">View On Etsy</a>

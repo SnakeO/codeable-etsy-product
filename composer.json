@@ -1,0 +1,20 @@
+{
+    "name": "wow/codeable-etsy-product",
+    "description": "A Custom Etsy Product Type for WooCommerce",
+    "type": "woocommerce-plugin",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Jake Chapa",
+            "email": "jake@websitesonwheels.net"
+        }
+    ],
+
+    "require": {},
+
+    "autoload": {
+        "classmap" : [
+            "app"
+        ]
+    }
+}
