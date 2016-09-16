@@ -60,7 +60,7 @@ class EtsyProductAdmin
 				'name'		=> __('Etsy API Key', ETSYPROD_TD),
 				'type'		=> 'text',
 				'desc'		=> __('Paste Your Etsy API Key. One has been pre-filled for you.', ETSYPROD_TD),
-				'default'	=> 'emt8n1w5dda7qdq7vwypzlqe',
+				'default'	=> 'd15ljgn5jjng8a3y3w0iqeb7',
 				'id'		=> 'etsy_api_key'
 			);
 
