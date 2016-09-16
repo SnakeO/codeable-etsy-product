@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class codeable_etsy_product\frontend\EtsyProduct</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Overview</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="namespace-codeable_etsy_product.frontend.html" title="Summary of codeable_etsy_product\frontend"><span>Namespace</span></a>
+					</li>
+					<li class="active">
+<span>Class</span>					</li>
+
+
+
+
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+				<h3>Namespaces</h3>
+			<ul>
+					<li class="active">
+						<a href="namespace-codeable_etsy_product.html">
+							codeable_etsy_product<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-codeable_etsy_product.admin.html">
+							admin						</a>
+							</li>
+					<li>
+						<a href="namespace-codeable_etsy_product.etsy.html">
+							etsy						</a>
+							</li>
+					<li class="active">
+						<a href="namespace-codeable_etsy_product.frontend.html">
+							frontend						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="namespace-Composer.html">
+							Composer<span></span>
+						</a>
+							<ul>
+					<li>
+						<a href="namespace-Composer.Autoload.html">
+							Autoload						</a>
+							</li>
+								</ul></li>
+					<li>
+						<a href="namespace-None.html">
+							None						</a>
+							</li>
+			</ul>
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-codeable_etsy_product.frontend.EtsyProduct.html">EtsyProduct</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class EtsyProduct</h1>
+
+
+
+	<dl class="tree well">
+		<dd style="padding-left:0px">
+WC_Product
+			
+			
+		</dd>
+		<dd style="padding-left:30px">
+			<img src="resources/inherit.png" alt="Extended by">
+<b><span>codeable_etsy_product\frontend\EtsyProduct</span></b>			
+			
+			
+		</dd>
+	</dl>
+
+
+	<div>
+		<h3>Direct known subclasses</h3>
+		<p class="elementList">
+			<code><a href="class-WC_Product_Etsy.html">WC_Product_Etsy</a></code>
+		</p>
+	</div>
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-codeable_etsy_product.html">codeable_etsy_product</a>\<a href="namespace-codeable_etsy_product.frontend.html">frontend</a><br>
+		
+
+			<b>Located at</b> <a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#12-202" title="Go to source code">app/frontend/EtsyProduct.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="__construct" id="___construct">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#___construct">#</a>
+			<code><a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#34-45" title="Go to source code">__construct</a>( <span> <var>$product</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="initEtsyListing" id="_initEtsyListing">
+
+			<td class="attributes"><code>
+				 protected 
+				Object
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_initEtsyListing">#</a>
+			<code><a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#47-61" title="Go to source code">initEtsyListing</a>( <span>integer <var>$max_cache_age</var> = <span class="php-num">0</span></span> )</code>
+
+			<div class="description short">
+				<p>Initialize the Etsy Listing associated with this product</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Initialize the Etsy Listing associated with this product</p>
+
+
+					<h4>Parameters</h4>
+					<div class="list"><dl>
+						<dt><var>$max_cache_age</var></dt>
+						<dd>The maximum allowed cache age (in minutes)</dd>
+					</dl></div>
+
+					<h4>Returns</h4>
+					<div class="list">
+						Object<br>The Etsy Listing
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="hijackWordpressPost" id="_hijackWordpressPost">
+
+			<td class="attributes"><code>
+				 protected 
+				WP_Post
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_hijackWordpressPost">#</a>
+			<code><a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#63-156" title="Go to source code">hijackWordpressPost</a>( <span> <var>$product</var></span> )</code>
+
+			<div class="description short">
+				<p>Inject the etsy listing into a WP_Post object, so that
+WooCommerce will pull the etsy data when reading it</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Inject the etsy listing into a WP_Post object, so that
+WooCommerce will pull the etsy data when reading it</p>
+
+
+
+					<h4>Returns</h4>
+					<div class="list">
+						WP_Post<br>a WP_Post object
+					</div>
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="forceDescriptionTab" id="_forceDescriptionTab">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_forceDescriptionTab">#</a>
+			<code><a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#158-179" title="Go to source code">forceDescriptionTab</a>( )</code>
+
+			<div class="description short">
+				<p>WooCommerce will not show the "Description" tab if the post_content is empty.
+Since we are pulling the description from Etsy, we will force it to be shown here.</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>WooCommerce will not show the "Description" tab if the post_content is empty.
+Since we are pulling the description from Etsy, we will force it to be shown here.</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="setupAddToCartBtn" id="_setupAddToCartBtn">
+
+			<td class="attributes"><code>
+				 protected 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_setupAddToCartBtn">#</a>
+			<code><a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#181-201" title="Go to source code">setupAddToCartBtn</a>( )</code>
+
+			<div class="description short">
+				<p>Our "Add to Cart" button is a button that will take them to etsy.com</p>
+			</div>
+
+			<div class="description detailed hidden">
+				<p>Our "Add to Cart" button is a button that will take them to etsy.com</p>
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="etsy_listing" id="$etsy_listing">
+			<td class="attributes"><code>
+				protected  
+				StdClass
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#14-19" title="Go to source code"><var>$etsy_listing</var></a>
+
+				<div class="description short">
+					<p>This is the result of the Etsy API call, which has all
+the data about this etsy listing</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>This is the result of the Etsy API call, which has all
+the data about this etsy listing</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$etsy_listing" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="etsy_listing_id" id="$etsy_listing_id">
+			<td class="attributes"><code>
+				protected  
+				integer
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#21-25" title="Go to source code"><var>$etsy_listing_id</var></a>
+
+				<div class="description short">
+					<p>The Etsy listing_id associated with this product</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>The Etsy listing_id associated with this product</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$etsy_listing_id" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="initialized" id="$initialized">
+			<td class="attributes"><code>
+				protected static 
+				array
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-codeable_etsy_product.frontend.EtsyProduct.html#27-32" title="Go to source code"><var>$initialized</var></a>
+
+				<div class="description short">
+					<p>This variable is used for bookkeeping
+to see what steps have been taken for initialization.</p>
+				</div>
+
+				<div class="description detailed hidden">
+					<p>This variable is used for bookkeeping
+to see what steps have been taken for initialization.</p>
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$initialized" class="anchor">#</a>
+					<code><span class="php-keyword1">array</span>()</code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
