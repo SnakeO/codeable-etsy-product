@@ -29,6 +29,8 @@ if( in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
 	define('ETSYPROD_FRONTEND_VIEWS', __DIR__ . '/app/frontend/views/');
 	define('ETSYPROD_TD', 'codeable-etsy-product');
 
+	load_plugin_textdomain(ETSYPROD_TD, false, dirname(plugin_basename( __FILE__ )) . '/languages/');
+
 	if( is_admin() ) {
 		$admin = new codeable_etsy_product\admin\EtsyProductAdmin();
 	}

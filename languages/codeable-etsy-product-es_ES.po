@@ -1,0 +1,122 @@
+# Copyright (C) 2016 Codeable WooCommerce Custom Etsy Product
+# This file is distributed under the same license as the Codeable WooCommerce Custom Etsy Product package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Codeable WooCommerce Custom Etsy Product 0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/codeable-etsy-"
+"product\n"
+"POT-Creation-Date: 2016-09-15 23:43-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-09-15 23:50-0500\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: Jake Chapa <jake@websitesonwheels.net>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+
+#: app/admin/EtsyProductAdmin.php:27
+msgid "Codeable - Etsy Product"
+msgstr "Codeable - Producto de Etsy"
+
+#: app/admin/EtsyProductAdmin.php:40
+msgid "Codeable - Etsy Product Settings"
+msgstr "Codeable - Configuración de Producto de Etsy"
+
+#: app/admin/EtsyProductAdmin.php:53
+msgid "Etsy Settings"
+msgstr "Configuración de Etsy"
+
+#: app/admin/EtsyProductAdmin.php:55
+msgid "The following options are used to setup Etsy Products"
+msgstr ""
+"Las siguientes opciones se utilizan para configurar Productos de Etsy"
+
+#: app/admin/EtsyProductAdmin.php:60
+msgid "Etsy API Key"
+msgstr "Etsy API Key"
+
+#: app/admin/EtsyProductAdmin.php:62
+msgid "Paste Your Etsy API Key. One has been pre-filled for you."
+msgstr ""
+"Pegar tu clave de API de Etsy. Uno ha sido previamente llenado para usted."
+
+#: app/admin/EtsyProductAdmin.php:68
+msgid "Etsy Shop Name"
+msgstr "Nombre de la tienda de Etsy"
+
+#: app/admin/EtsyProductAdmin.php:70
+msgid ""
+"Enter Your Etsy Shop name. One has been pre-filled for you as an example."
+msgstr ""
+"Introduzca el nombre de su tienda de Etsy. Uno ha sido previamente llenado "
+"para usted como un ejemplo."
+
+#: app/admin/EtsyProductAdmin.php:95
+msgid "Etsy Product"
+msgstr "Producto de Etsy"
+
+#: app/admin/views/etsy-product-tab.php:39
+msgid "Pick an Etsy Item:"
+msgstr "Elija un elemento de Etsy:"
+
+#: app/admin/views/etsy-product-tab.php:45
+msgid "Cache for faster displaying:"
+msgstr "Cache para mostrar más rápido:"
+
+#: app/admin/views/etsy-product-tab.php:47
+msgid "Don't cache"
+msgstr "No caché"
+
+#: app/admin/views/etsy-product-tab.php:48
+msgid "1 minute"
+msgstr "1 minuto"
+
+#: app/admin/views/etsy-product-tab.php:49
+msgid "5 minutes"
+msgstr "5 minutos"
+
+#: app/admin/views/etsy-product-tab.php:50
+msgid "30 minutes"
+msgstr "30 minutos"
+
+#: app/admin/views/etsy-product-tab.php:51
+msgid "1 hour"
+msgstr "1 hora"
+
+#: app/admin/views/etsy-product-tab.php:52
+msgid "1 day"
+msgstr "1 dia"
+
+#: app/admin/views/etsy-product-tab.php:56
+msgid ""
+"Product Image and Description are pulled from Etsy. There is need to enter "
+"them on this admin screen."
+msgstr ""
+"Imagen de producto y descripción se tiran de Etsy. Es necesario entrar en "
+"la pantalla admin."
+
+#: app/frontend/EtsyProduct.php:171
+msgid "Description"
+msgstr "Descripción"
+
+#. Plugin Name of the plugin/theme
+msgid "Codeable WooCommerce Custom Etsy Product"
+msgstr "Codeable WooCommerce Custom Etsy Producto"
+
+#. Plugin URI of the plugin/theme
+msgid "http://three.codeable.websitesonwheels.net/"
+msgstr "http://three.codeable.websitesonwheels.net/"
+
+#. Description of the plugin/theme
+msgid "A Custom Etsy Product Type for WooCommerce"
+msgstr "Un tipo de producto de encargo Etsy para WooCommerce"
+
+#. Author of the plugin/theme
+msgid "Jake Chapa"
+msgstr "Jake Chapa"
+
+#. Author URI of the plugin/theme
+msgid "https://websitesonwheels.net/"
+msgstr "https://websitesonwheels.net/"

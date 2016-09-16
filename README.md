@@ -9,6 +9,8 @@ Copy the plugin into your `wp-content/plugins/` directory, and then login to you
 
 ![Plugin Screen](https://wow-ss.s3.amazonaws.com/dorJKXz.png)
 
+If you wish to use composer you can add a dependency for our plugin from WPackagist at `https://packagist.org/packages/wow/codeable-etsy-product`
+
 Usage
 -------------
 Once activated, visit `WooCommerce -> Settings`, and then click on the `Products` tab. Underneath that, click on `Codeable - Etsy Product Settings`. You'll see a screen where you can enter your Etsy API Key, and your Etsy Shop Name. An Etsy API key can be created from [Etsy's developer center](https://www.etsy.com/developers/register). A key and a shop name have been pre-filled for you for convenience.
@@ -35,3 +37,9 @@ On your website, it will appear alongside other products in the grid view:
 
 And the full product details are avaialble on the product page:
 ![Product details](https://wow-ss.s3.amazonaws.com/qdsj84e.png)
+
+Localization
+------------
+Translations are currently available in Spanish. The `/languages` directory contains the `.pot` file for further translating.
+
+![Spanish](https://wow-ss.s3.amazonaws.com/JSLUuEA.png)
